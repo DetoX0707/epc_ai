@@ -1,6 +1,6 @@
 # Data Centre EPC AI Intelligence Platform
 
-Working hackathon MVP for Problem Statement 4: AI Intelligence Platform for Data Centre EPC Project Delivery.
+ AI Intelligence Platform for Data Centre EPC Project Delivery.
 
 ## What This Project Demonstrates
 
@@ -91,15 +91,5 @@ data/
   uploads/               Runtime uploads and generated index files
 ```
 
-## Hackathon Upgrade Ideas
 
-- Add LangGraph orchestration around the current Supervisor, Knowledge Agent, and Auditor functions.
-- Replace the deterministic answer composer with GPT-4.1 or GPT-4o using the retrieved citations as the only context.
-- Add Docling for layout-aware PDF conversion when installing dependencies is allowed.
-- Add drawing review with computer vision for shop drawings and equipment schedules.
-- Add project schedule ingestion and a predictive risk model after the document QA demo is strong.
-
-## Presentation Assets
-
-- `DEMO_SCRIPT.md`: 3-minute presentation script.
 - `ARCHITECTURE.md`: Mermaid architecture diagram and judging-criteria mapping.
