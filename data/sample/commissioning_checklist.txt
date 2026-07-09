@@ -1,0 +1,17 @@
+COMMISSIONING CHECKLIST
+Project: Mumbai Hyperscale DC-01
+Document: CX-IST-CHECKLIST-DC01
+Revision: A
+
+INTEGRATED SYSTEM TEST IST-04
+Scenario: Utility failure with critical IT load on UPS and generator recovery.
+Acceptance Criteria: UPS shall carry critical IT load without interruption. Runtime at full load: 15 minutes minimum shall be demonstrated or verified through battery discharge calculation. Generator shall accept load and stabilize before UPS autonomy expires.
+Evidence Required: EPMS waveform capture, UPS event log, generator controller log, BMS alarm timestamp, and witness signature.
+
+INTEGRATED SYSTEM TEST IST-09
+Scenario: Cooling tower cell failure during high ambient condition.
+Acceptance Criteria: Remaining cooling tower cells shall maintain leaving water temperature: 32 C maximum at design wet bulb and approach temperature: 5 C maximum under simulated N+1 operation.
+Evidence Required: Trend logs for condenser water supply, fan speed, VFD status, basin temperature, vibration switch status, and BMS alarms.
+
+QUALITY HOLD POINT
+Vendor submittal deviations affecting runtime, acoustic limits, thermal performance, control interface, or commissioning evidence shall be closed before equipment release for procurement.

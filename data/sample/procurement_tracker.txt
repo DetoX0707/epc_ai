@@ -1,0 +1,20 @@
+PROCUREMENT TRACKER
+Project: Mumbai Hyperscale DC-01
+Document: PROCUREMENT-CRITICAL-EQUIPMENT
+Revision: 06
+
+UPS-01
+Package: 2N UPS blocks for critical IT load
+Current Status: Technical submittal approved with comment. Factory acceptance test pending.
+Risk: Battery monitoring interface must be verified against EPMS point schedule.
+
+CT-04
+Package: Cooling tower cell
+Current Status: Vendor technical submittal under QA review.
+Risk: Submitted values indicate possible non-compliance on design ambient temperature, leaving water temperature, approach temperature, fan motor power, and acoustic limit.
+Decision Gate: Procurement release blocked until quality manager accepts compliant revision.
+
+GEN-02
+Package: Diesel generator
+Current Status: Manufacturing slot reserved.
+Risk: Fuel autonomy calculation and controller event log format pending.

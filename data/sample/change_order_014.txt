@@ -1,0 +1,13 @@
+CHANGE ORDER CO-014
+Project: Mumbai Hyperscale DC-01
+Package: Mechanical Cooling
+Revision: Final
+
+Scope Change
+The east service yard acoustic boundary condition has been tightened after municipal review. Cooling tower cells CT-01 through CT-06 must comply with Noise level: 78 dB maximum at 1 meter. Any vendor proposal exceeding this limit shall include factory-installed attenuation as part of the base supply.
+
+Commercial Note
+No additional schedule relief is granted for acoustic compliance. Procurement release remains gated by quality manager approval of the compliant technical submittal.
+
+Quality Instruction
+The submittal reviewer shall cross-check design ambient temperature, leaving water temperature, approach temperature, fan motor power, noise level, operating weight, and BMS protocol against the master specification and RFI responses before approval.

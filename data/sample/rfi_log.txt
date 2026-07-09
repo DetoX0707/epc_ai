@@ -1,0 +1,19 @@
+PROJECT RFI LOG
+Project: Mumbai Hyperscale DC-01
+Document: RFI-REGISTER-DC01
+Revision: B
+
+RFI-017 UPS AUTONOMY CLARIFICATION
+Question: Can the UPS battery autonomy be reduced to 10 minutes where generator start sequence is below 60 seconds?
+Response: Rejected. Tier III critical IT load shall retain runtime at full load: 15 minutes minimum. This requirement remains unchanged even where generator start time is below 60 seconds.
+Status: Closed
+
+RFI-026 COOLING TOWER ACOUSTIC EXCEPTION
+Question: Vendor requests acceptance of 82 dB at 1 meter for cooling tower CT-04 due to fan delivery constraints.
+Response: Rejected. Noise level: 78 dB maximum at 1 meter remains mandatory for all cooling tower cells near the east boundary. Vendor may propose acoustic attenuators without increasing operating weight beyond 18500 kg per cell.
+Status: Closed
+
+RFI-031 BACNET GATEWAY
+Question: Can Modbus TCP be accepted in place of native BACnet for cooling tower controls?
+Response: Conditional rejection. BACnet integration to the BMS is required. A gateway may be accepted only if it is included in the base package, factory-tested, and shown in the controls submittal.
+Status: Open

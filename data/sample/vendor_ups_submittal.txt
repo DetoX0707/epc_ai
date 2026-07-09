@@ -1,0 +1,16 @@
+VENDOR UPS TECHNICAL SUBMITTAL
+Vendor: VoltEdge Power Systems
+Project Reference: Mumbai Hyperscale DC-01
+Equipment: UPS Block UPS-01
+Revision: 02
+
+Technical Schedule
+Runtime at full load: 10 minutes
+UPS efficiency: 94 %
+Battery monitoring: string voltage and alarm status
+
+Controls and Interfaces
+The UPS package includes local monitoring and Modbus TCP interface to EPMS. Cell impedance monitoring is not included in the base offer.
+
+Vendor Notes
+The vendor proposes reduced autonomy because generator start sequence is expected within 60 seconds.

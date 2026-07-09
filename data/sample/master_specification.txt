@@ -1,0 +1,22 @@
+DATA CENTRE PROJECT MASTER SPECIFICATION
+Project: Mumbai Hyperscale DC-01
+Document: MEP-MASTER-SPEC-DC01
+Revision: C
+
+1. UPS SYSTEM REQUIREMENTS
+All UPS systems serving Tier III critical IT load shall be configured for N+1 redundancy. Runtime at full load: 15 minutes minimum. UPS efficiency: 96% minimum at 50% load. Battery monitoring shall report cell temperature, string voltage, impedance, and alarm status to the BMS and EPMS.
+
+2. COOLING TOWER REQUIREMENTS
+Cooling towers serving critical chilled water loops shall be stainless steel basin construction with VFD-controlled fans. Design ambient temperature: 46 C minimum. Leaving water temperature: 32 C maximum at design wet bulb. Approach temperature: 5 C maximum. Fan motor power: 45 kW maximum per cell. Noise level: 78 dB maximum at 1 meter. Operating weight: 18500 kg maximum per cell. Each tower shall include vibration switches, basin heaters, access ladders, and BACnet integration to the BMS.
+
+3. GENERATOR REQUIREMENTS
+Diesel generators shall support N+1 redundancy for critical load blocks. Step load acceptance: 60% minimum in one step. Fuel autonomy: 48 hours minimum at design load. Generator control panels shall integrate with EPMS and support event logs with millisecond timestamps. Generator rating shall support continuous power operation for critical load blocks.
+
+3.1 SWITCHGEAR REQUIREMENTS
+Medium voltage switchgear shall support arc-flash mitigation, digital protection relay integration, and EPMS metering. Fault withstand rating: 50 kA minimum. Control voltage: 110 VDC. Breaker operation counter, trip coil supervision, and relay event records shall be available to the EPMS.
+
+4. COMMISSIONING REQUIREMENTS
+Integrated systems testing shall validate utility loss, generator start, UPS transfer, chiller restart, BMS alarm propagation, EPMS metering, and return-to-normal sequence. Every test record shall include date, tester, witness, measured values, acceptance criteria, pass or fail status, and linked non-conformance reference where applicable.
+
+5. QUALITY AND SUBMITTAL CONTROL
+Vendor submittals must be checked against this master specification before release for procurement. Any deviation in capacity, redundancy, runtime, design temperature, electrical load, acoustic limit, weight, interface protocol, or commissioning evidence shall be recorded as a non-conformance and routed to the project quality manager.

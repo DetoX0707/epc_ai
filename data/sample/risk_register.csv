@@ -1,0 +1,7 @@
+risk_id,area,risk,owner,probability,impact,score,status,mitigation
+R-101,Procurement,Cooling tower CT-04 non-compliant thermal and acoustic schedule,QA Manager,5,5,25,Open,Block release and demand compliant revision
+R-117,Electrical,Generator GEN-02 fuel autonomy below project requirement,Electrical Lead,4,5,20,Open,Request revised tank sizing and EPMS event log interface
+R-123,Controls,BACnet gateway treated as optional by cooling tower vendor,Controls Lead,4,4,16,Open,Make BACnet gateway base-scope requirement
+R-140,Commissioning,IST evidence package incomplete for UPS event logs,Cx Manager,3,4,12,Watching,Add witness checklist and EPMS export validation
+R-152,Supply Chain,MV switchgear relay delivery may miss integrated testing window,Procurement Lead,3,5,15,Watching,Escalate factory slot and approve alternate relay
+R-171,Quality,RFI closure not linked to procurement approval workflow,Document Controller,3,3,9,Controlled,Use cited audit report as release gate evidence

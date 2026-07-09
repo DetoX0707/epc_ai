@@ -1,0 +1,19 @@
+VENDOR COOLING TOWER TECHNICAL SUBMITTAL
+Vendor: NorthWind Thermal Systems
+Project Reference: Mumbai Hyperscale DC-01
+Equipment: Cooling Tower Cell CT-04
+Revision: 01
+
+Technical Schedule
+Design ambient temperature: 42 C
+Leaving water temperature: 33 C
+Approach temperature: 6 C
+Fan motor power: 52 kW
+Noise level: 82 dB
+Operating weight: 17800 kg
+
+Controls and Interfaces
+The cooling tower package includes local PLC control, vibration switch, basin heater, and Modbus TCP connection. BACnet gateway is available as an optional accessory.
+
+Vendor Notes
+The submitted package is optimized for fast delivery. Acoustic attenuator and stainless steel basin are excluded from the base offer and can be quoted separately.

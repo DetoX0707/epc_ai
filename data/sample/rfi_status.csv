@@ -1,0 +1,6 @@
+rfi_id,topic,linked_package,decision,status,cycle_days,rework_hours_saved
+RFI-017,UPS autonomy,UPS-01,15 minutes minimum retained,Closed,4,12
+RFI-026,Cooling tower acoustic exception,CT-04,82 dB rejected; 78 dB maximum retained,Closed,5,16
+RFI-031,BACnet gateway,CT-04,Gateway acceptable only if included in base package,Open,7,10
+RFI-044,Generator event logs,GEN-02,EPMS millisecond event log required,Open,6,8
+RFI-052,Switchgear relay event records,MVSG-01,Relay records must export to EPMS,Open,3,6

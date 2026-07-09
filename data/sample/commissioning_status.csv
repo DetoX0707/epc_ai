@@ -1,0 +1,6 @@
+test_id,system,scenario,readiness,blocking_item,owner,target_date
+IST-04,UPS + Generator,Utility failure and generator recovery,72,UPS event log export pending,Cx Manager,2026-08-18
+IST-09,Cooling,High ambient cooling tower cell failure,58,CT-04 submittal non-compliance,Mechanical Lead,2026-08-24
+IST-12,EPMS,Power meter alarm propagation,81,Meter naming convention review,EPMS Lead,2026-08-11
+IST-15,BMS,Chiller plant alarm integration,66,BACnet point list missing from vendor,Controls Lead,2026-08-20
+IST-19,Switchgear,Relay trip and breaker event record,49,Relay delivery risk,Electrical Lead,2026-08-29

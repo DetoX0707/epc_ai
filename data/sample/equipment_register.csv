@@ -1,0 +1,7 @@
+tag,package,discipline,vendor,status,lead_time_weeks,criticality,qa_gate
+UPS-01,2N UPS Block,Electrical,VoltEdge Power Systems,FAT Pending,28,High,Approved with comments
+CT-04,Cooling Tower Cell,Mechanical,NorthWind Thermal Systems,QA Review,18,Critical,Blocked
+GEN-02,Diesel Generator,Electrical,Bharat Prime Gensets,Manufacturing Slot Reserved,42,Critical,Blocked
+MVSG-01,Medium Voltage Switchgear,Electrical,GridShield Electric,Drawing Review,36,High,Open comments
+BMS-CORE,BMS Integration,Controls,ControlSphere Automation,Interface Mapping,14,Medium,Open comments
+EPMS-01,EPMS Metering,Electrical,PowerTrace Systems,Submittal Approved,12,High,Released

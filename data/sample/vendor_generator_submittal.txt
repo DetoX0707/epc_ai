@@ -1,0 +1,15 @@
+VENDOR GENERATOR TECHNICAL SUBMITTAL
+Vendor: Bharat Prime Gensets
+Project Reference: Mumbai Hyperscale DC-01
+Equipment: Generator GEN-02
+Revision: 03
+
+Technical Schedule
+Step load acceptance: 50 %
+Fuel autonomy: 36 hours
+
+Controls and Interfaces
+The generator controller supports dry contact alarm outputs. EPMS event log interface is available as an optional add-on.
+
+Vendor Notes
+Continuous power rating is under factory review and will be confirmed after engine selection.
