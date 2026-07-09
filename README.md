@@ -55,9 +55,6 @@ What backup runtime is required for Tier III UPS systems under full load?
 5. Show that the app finds deviations between the vendor cooling tower submittal and the project master specification in seconds.
 6. Open the Architecture tab to explain why the workflow is scalable and business-relevant.
 
-## Suggested Pitch
-
-"Traditional EPC QA requires an engineer to manually cross-check vendor PDFs against master specifications and commissioning standards. Our multi-agent workflow turns that into an auditable 45-second process: one agent retrieves project truth with citations, while another extracts vendor parameters and flags specification deviations before material reaches site."
 
 ## Included Demo Documents
 
