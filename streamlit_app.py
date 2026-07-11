@@ -11,7 +11,7 @@ import streamlit as st
 ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT / "app"))
 
-from epc_ai import (  # noqa: E402
+from app.epc_ai import (  # noqa: E402
     HybridKnowledgeBase,
     audit_vendor_submittal,
     extract_text_by_page,
@@ -157,7 +157,7 @@ def render_hero() -> None:
     st.markdown(
         """
         <div class="hero">
-          <h1>SABAAAAA EPC Intelligence</h1>
+          <h1> EPC Intelligence</h1>
           <p>AI-assisted project control tower for submittal QA, RFI search, commissioning readiness,
           and procurement risk evidence across data-centre construction packages.</p>
         </div>
@@ -168,7 +168,7 @@ def render_hero() -> None:
 
 def render_sidebar() -> None:
     with st.sidebar:
-        st.markdown("## SABAA EPC")
+        st.markdown("## EPC")
         st.caption("Data Centre EPC AI")
         st.divider()
         status = serialize_kb(st.session_state.kb)
@@ -392,7 +392,7 @@ def render_demo_data() -> None:
 
 
 def main() -> None:
-    st.set_page_config(page_title="SABAA EPC Intelligence", page_icon="DC", layout="wide")
+    st.set_page_config(page_title="EPC Intelligence", page_icon="DC", layout="wide")
     init_state()
     inject_css()
     render_sidebar()
